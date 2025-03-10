@@ -1,0 +1,30 @@
+.flaggen-liste {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.flagge-container {
+  text-align: center;
+  cursor: pointer;
+  width: 140px;  /* Einheitliche Größe */
+  padding: 10px;
+  border: 1px solid #ddd; /* Graue Umrandung */
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background-color: white; /* Falls nötig, um einheitlichen Hintergrund zu haben */
+}
+
+.flagge-container:hover {
+  transform: scale(1.05); /* Leichte Vergrößerung beim Hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.flagge {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

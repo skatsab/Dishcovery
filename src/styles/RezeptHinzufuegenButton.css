@@ -1,0 +1,29 @@
+.rezept-hinzufuegen-btn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: 25px; /* Runde Ecken */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .rezept-hinzufuegen-btn:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05); /* Leichte Vergrößerung beim Hover */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-start; /* Button bleibt links */
+    padding: 20px; /* Abstand von anderen Elementen */
+    margin-left: 30px; /* Abstand vom linken Rand */
+  }
+  
