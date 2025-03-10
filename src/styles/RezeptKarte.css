@@ -1,0 +1,27 @@
+.rezept-karte {
+  width: 140px; /* Einheitliche Größe */
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background-color: white; /* Hintergrund auf Weiß setzen */
+}
+
+  
+  .rezept-karte:hover {
+    transform: scale(1.05);
+  }
+  
+  .rezept-karte img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .rezept-karte h3 {
+    color: #333;
+    padding: 10px;
+  }
+  
