@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <div>
       <h1>Dishcovery</h1>
+      <image src="/logo512.png" alt="Logo"/>
       <h2>Top Countries</h2>
       <FlaggenListe />
       <Empfehlungen />
