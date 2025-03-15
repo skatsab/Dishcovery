@@ -2,10 +2,10 @@
 const countryCodes = {
     DE: "Deutschland",
     FR: "Frankreich",
-    US: "Vereinigte Staaten",
+    US: "den Vereinigten Staaten",
     ES: "Spanien",
     IT: "Italien",
-    GB: "Vereinigtes Königreich",
+    GB: "dem Vereinigten Königreich",
     CA: "Kanada",
     AU: "Australien",
     JP: "Japan",

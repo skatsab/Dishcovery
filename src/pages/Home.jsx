@@ -6,7 +6,6 @@ import Map from "../components/Map";
 const Home = () => {
   return (
     <div>
-      <h1>Dishcovery</h1>
       <image src="/logo512.png" alt="Logo"/>
       <Map />
       <h2>Top Countries</h2>
