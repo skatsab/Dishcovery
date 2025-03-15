@@ -1,0 +1,38 @@
+/* 🔥 Buttons Styling */
+.custom-button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+  
+.custom-button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    
+    /* 🔥 NEU: Hintergrundfarbe & Styling */
+    background-color: #f8f9fa;  /* Dezentes Hellgrau */
+    padding: 20px; /* Platz um die Buttons herum */
+    border-radius: 15px; /* Abgerundete Kanten für modernes Design */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Leichter Schatten für Tiefe */
+    width: fit-content; /* Passt sich der Button-Anzahl an */
+    margin-left: auto;  /* Sorgt für zentrierte Platzierung */
+    margin-right: auto;
+}
