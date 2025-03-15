@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "../styles/FlaggenListe.css"; // WICHTIG: Stelle sicher, dass die CSS-Datei importiert ist
+import "../styles/FlaggenListe.css"; 
 
 const flaggenDaten = [
   { land: "Italien", imageSrc: "/images/italien.png" },

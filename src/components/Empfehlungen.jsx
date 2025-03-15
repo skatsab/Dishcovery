@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa"; // ⭐ Icons importieren
+import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa"; 
 import "../styles/Empfehlungen.css";
 
 const empfehlungenRezepte = [
@@ -9,7 +9,7 @@ const empfehlungenRezepte = [
   { id: 3, name: "Schwarzwälder Kirschtorte", image: "/images/schwarzwaelder.jpeg", rating: 4.2 }
 ];
 
-// 🔥 Funktion zur Darstellung der Sterne
+
 const Bewertungen = ({ rating }) => {
   const stars = [];
   for (let i = 1; i <= 5; i++) {
@@ -39,7 +39,7 @@ const Empfehlungen = () => {
           <div key={rezept.id} className="rezept-karte" onClick={() => handleClick(rezept.id)}>
             <img src={rezept.image} alt={rezept.name} />
             <h3>{rezept.name}</h3>
-            <Bewertungen rating={rezept.rating} /> {/* ⭐ Hier werden die Sterne eingefügt */}
+            <Bewertungen rating={rezept.rating} /> 
           </div>
         ))}
       </div>

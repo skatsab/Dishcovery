@@ -1,8 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import "../styles/RezeptDetail.css"; // CSS für das Styling
+import "../styles/RezeptDetail.css"; 
 
-// 🔥 ALLE REZEPTE in einem Objekt speichern
+
 const rezeptDaten = {
   1: {
     name: "Tiramisu",

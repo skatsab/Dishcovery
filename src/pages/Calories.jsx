@@ -1,4 +1,4 @@
-// src/pages/Calories.jsx
+
 import React from "react";
 
 const Calories = () => {

@@ -1,4 +1,4 @@
-// src/pages/AddRecipe.jsx
+
 import React from "react";
 
 const AddRecipe = () => {

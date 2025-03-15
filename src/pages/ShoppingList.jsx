@@ -1,4 +1,4 @@
-// src/pages/ShoppingList.jsx
+
 import React from "react";
 
 const ShoppingList = () => {

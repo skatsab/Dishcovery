@@ -3,13 +3,13 @@ import { MapContainer, TileLayer, useMapEvents } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { useNavigate } from "react-router-dom";
 
-// Deine Länder- und Kürzel-Mapping-Datei (countryCodes.js)
+
 import countryCodes from "../navigation/CountryCodes";
 
 const Map = () => {
-  const navigate = useNavigate(); // Verwenden von useNavigate für das Routing
+  const navigate = useNavigate(); 
 
-  // Methode, die die Landseite aufruft
+  
   const goToLandseite = (countryCode) => {
     // Die Methode erwartet jetzt das Länderkürzel und bekommt den vollständigen Ländernamen
     const landName = countryCodes[countryCode];
